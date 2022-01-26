@@ -1,0 +1,7 @@
+rgb.final:
+  path: '/rgb'
+  defaults:
+    _form: 'Drupal\rgb\Form\RgbTable'
+    _title: 'Final module'
+  requirements:
+    _permission: 'access content'
