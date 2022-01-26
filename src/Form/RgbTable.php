@@ -166,7 +166,7 @@ class RgbTable extends FormBase {
           $table[$i][$key]['#disabled'] = TRUE;
           $table[$i][$key]['#default_value'] = round($value, 2);
         }
-        $table[$i]['year']['#default_value'] = date('Y') - $i;
+        $table[$i]['year']['#default_value'] = date('Y') + 1 - $i;
       }
     }
   }
